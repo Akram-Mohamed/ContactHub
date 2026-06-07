@@ -161,9 +161,11 @@ function addContent() {
 
 }
 function getInitials(FullName) {
-    var Initials = FullName.split(" ").slice(0, 2).map(word => word.charAt(0).toUpperCase()).join("");
-    return Initials;
-
+    return FullName
+        .split(" ")
+        .slice(0, 2)
+        .map(word => word.charAt(0).toUpperCase())
+        .join("");
 }
 function displayContent(displayContacts) {
     var container = "";
