@@ -735,3 +735,60 @@ svg {
 
 
 }
+
+@media (max-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+
+    .data-modal-wrapper {
+        width: 60% !important;
+    }
+}
+
+/* Small devices (sm) */
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+
+    .data-modal-wrapper {
+        width: 50% !important;
+    }
+}
+
+/* Medium devices (md) */
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .data-modal-wrapper {
+        width: 40% !important;
+    }
+}
+
+/* Large devices (lg) */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .data-modal-wrapper {
+        width: 35% !important;
+    }
+}
+
+/* Extra large devices (xl) */
+@media (min-width: 1280px) {
+    .data-modal-wrapper {
+        width: 25% !important;
+    }
+}
+
+/* 2XL devices */
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
